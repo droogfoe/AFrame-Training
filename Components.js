@@ -1,3 +1,5 @@
+
+
 AFRAME.registerComponent('CustomData', {
     schema: {},
 
