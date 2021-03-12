@@ -12,7 +12,7 @@
         </script>
 
         <style>
-            .button{
+            .buttons{
                 position: absolute;
                 bottom: 0;
                 left: 0;
@@ -26,7 +26,9 @@
         </style>
     </head>
     <body>
-        <button onclick="ClickFunc()">Click</button>
+        <div class="buttons">
+            <button onclick="ClickFunc()">Click!</button>
+        </div>
 
         <a-scene physics background="color: #FAFAFA">
             <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9" shadow dynamic-body></a-box>
